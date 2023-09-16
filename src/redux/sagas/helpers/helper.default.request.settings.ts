@@ -14,7 +14,7 @@ export const defaultRequestSettings = {
 	JWTRefreshUpdate: true,
 	JWTRefreshUpdateMethod: 'POST',
 	JWTRefreshUpdateURL: '/auth/api/refresh',
-  withCredentials: true,
-  baseURL: 'http://localhost:6066/',
+  //withCredentials: true,
+  //baseURL: 'http://localhost:6066/',
   //JWTRefreshUpdateFn: null,
 } as DefaultRequestSettingsInterface;
