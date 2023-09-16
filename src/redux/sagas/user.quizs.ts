@@ -28,7 +28,7 @@ function* quizsSaga(o: {[payload: string]: QuizsPayload}): Generator<any, any, a
       params: {},
     });
     console.log(res);
-    yield put(quizs(res.data));
+    yield put(quizs(res.data || []));
   } catch(e: any) {
     console.error(e);
 		yield put(errorQuizs(e.data));
