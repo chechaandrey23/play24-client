@@ -10,7 +10,7 @@ import {login, startLoadLogin, endLoadLogin, errorLogin,
         logout, startLoadLogout, endLoadLogout, errorLogout,
         user, startLoadUser, endLoadUser, errorUser} from "../auth";
 
-const BASE_URL_PREFIX = 'auth/api/';
+const BASE_URL_PREFIX = '/auth/api/';
 
 interface LoginPayload {
   username: string;

@@ -46,7 +46,7 @@ export const UserQuizs: React.FC<UserQuizsProps> = () => {
                               attempts={entry.attempts}
                               duration={entry.duration}
                               numberOfAttempts={entry.numberOfAttempts}
-                              questions={entry.questions}
+                              questions={entry.questions || []}
                               quizname={entry.quizname}/>
               </Grid>);
             })

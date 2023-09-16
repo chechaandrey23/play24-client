@@ -9,7 +9,7 @@ import {defaultRequestSettings} from './helpers/helper.default.request.settings'
 import {results, startLoadResults, endLoadResults, errorResults,
         resetResult, startLoadResetResult, endLoadResetResult, errorResetResult} from "../admin.results";
 
-const BASE_URL_PREFIX = 'admin/api/';
+const BASE_URL_PREFIX = '/admin/api/';
 
 interface ResultsPayload {
   quizId: string;

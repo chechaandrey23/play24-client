@@ -12,7 +12,7 @@ import {quizs, startLoadQuizs, endLoadQuizs, errorQuizs,
         deleteQuiz, startLoadDeleteQuiz, endLoadDeleteQuiz, errorDeleteQuiz,
         editQuizDraft, startLoadEditQuizDraft, endLoadEditQuizDraft, errorEditQuizDraft} from "../admin.quizs";
 
-const BASE_URL_PREFIX = 'admin/api/';
+const BASE_URL_PREFIX = '/admin/api/';
 
 interface QuizsPayload {}
 

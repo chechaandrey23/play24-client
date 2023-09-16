@@ -9,7 +9,7 @@ import {defaultRequestSettings} from './helpers/helper.default.request.settings'
 import {serverDateTimeZone, startLoadServerDateTimeZone, endLoadServerDateTimeZone, errorServerDateTimeZone,
         setDiffHours} from "../server.date.time.zone";
 
-const BASE_URL_PREFIX = 'auth/api/';
+const BASE_URL_PREFIX = '/auth/api/';
 
 function* getServerDateTimeZoneSaga({payload = {}}): Generator<any, any, any> {
   try {

@@ -14,7 +14,7 @@ import {questions, questionsWithSortOrder, questionsWithOutSortOrder, quiz, star
         questionTypes, startLoadQuestionTypes, endLoadQuestionTypes, errorQuestionTypes,
         editQuestionDraft, startLoadEditQuestionDraft, endLoadEditQuestionDraft, errorEditQuestionDraft} from "../admin.questions";
 
-const BASE_URL_PREFIX = 'admin/api/';
+const BASE_URL_PREFIX = '/admin/api/';
 
 interface QuestionsPayload {
   quizId: string;

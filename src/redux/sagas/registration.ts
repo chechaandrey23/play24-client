@@ -10,7 +10,7 @@ import {registration, startLoadRegistration, endLoadRegistration, errorRegistrat
         roles, startLoadRoles, endLoadRoles, errorRoles} from "../registration";
 import {user, login, logout} from '../auth';
 
-const BASE_URL_PREFIX = 'auth/api/';
+const BASE_URL_PREFIX = '/auth/api/';
 
 interface RegistrationPayload {
   username: string;

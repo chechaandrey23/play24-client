@@ -12,7 +12,7 @@ import {questions, replaceQuestion, questionsWithSortOrder, questionsWithOutSort
         fullQuiz, fullQuizQuestions, fullQuizQuestionsWithSortOrder, fullQuizQuestionsWithOutSortOrder, fullQuizQuestion,
         replaceFullQuizQuestion, startLoadFullQuiz, endLoadFullQuiz, errorFullQuiz} from "../user.questions";
 
-const BASE_URL_PREFIX = 'user/api/';
+const BASE_URL_PREFIX = '/user/api/';
 
 interface QuestionsPayload {
   quizId: string;
